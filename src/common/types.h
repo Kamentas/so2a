@@ -4,11 +4,6 @@
 #include <stddef.h>
 #include <stdbool.h>
 
-// C23特性：nullptr 常量
-#ifndef nullptr
-#define nullptr ((void*)0)
-#endif
-
 // ELF基础类型
 typedef uint64_t Elf64_Addr;
 typedef uint64_t Elf64_Off;
